@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>To-Do List</title>
+</head>
+<body class="body">
+  <div class="container">
+  <h1>sample text </h1>
+  <form id="task-form">
+    <div class="form-group">
+      <input type="text" class="form-control" id="task-input" placeholder="Enter task">
+      <input type="text" class="form-control" id="deadline-input" placeholder="Enter deadline (dd-mm-yyyy)">
+    </div>
+    <div class="row">
+      <div class="col-auto">
+        <button type="submit" class="btn-custom">Add Task</button>
+      </div>
+      <div class="col-auto ml-auto">
+        <button type="button" id="clear" class="btn-custom">Clear All Tasks</button>
+      </div>
+    </div>
+</form>
+  <ul id="task-list" class="list-group mt-4">
+    <!-- Tasks area -->
+  </ul>
+</div>
+
+  <script src="script.js"></script>
+	
+</body>
+</html>
